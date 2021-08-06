@@ -21,3 +21,7 @@ const changeSearch = debounce(({text}) => {
 utools.onPluginReady(() => {
   utools.setSubInput(changeSearch, '', true);
 });
+
+utools.onPluginEnter(() => {
+  utools.setSubInput(changeSearch, '', true);
+})
