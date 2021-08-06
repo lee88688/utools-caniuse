@@ -1,5 +1,3 @@
-let searchValue = '';
-
 const iframe = document.getElementById('content');
 window.f = iframe;
 
